@@ -19,7 +19,7 @@ function login() {
     for (let i = intentos; i > 0; i--) {
         let Ncontraseña = prompt('Ingresá nuevamente tu contraseña, Tenés ' + i + ' intentos.');
         if (Ncontraseña === Contraseña) {
-        alert('Bienvenido/a ' + nombreUser +  apellidoUser + ' a IKKA Aceites Esenciales');
+        alert('Bienvenido/a ' + nombreUser + apellidoUser + ' a IKKA Aceites Esenciales');
             ingresar = true;
             break;
         } else {
