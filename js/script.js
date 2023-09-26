@@ -1,10 +1,10 @@
 let nombreUser = prompt ('Ingresa tu Nombre')
 let apellidoUser = prompt ('Ingresa tu Apellido')
-let Usuario = prompt('Ingresa un nombre de Usuario');
+let nombreUsuario = prompt('Ingresa un nombre de Usuario');
 
 console.log (nombreUser)
 console.log (apellidoUser)
-console.log (Usuario)
+console.log (nombreUsuario)
 
 function login() {
     let Contraseña = prompt('Ingresa una nueva contraseña');
