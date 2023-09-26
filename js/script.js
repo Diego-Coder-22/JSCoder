@@ -7,7 +7,6 @@ console.log (apellidoUser)
 console.log (Usuario)
 
 function login() {
-    let Usuario = prompt('Ingresa un nombre de Usuario');
     let Contraseña = prompt('Ingresa una nueva contraseña');
     if (Contraseña===''){
     do{
