@@ -21,7 +21,14 @@ const productos = [
         volumen: 30,
         stock: true,
         precio: 120,
-    }
+    },
+    {
+        nombre:'Aceite de Cafe',
+        origen: 'Colombia',
+        volumen: 30,
+        stock: true,
+        precio: 120,
+    },
 ];
 
 const usuario ={
